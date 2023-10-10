@@ -1,0 +1,65 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 
+  <h1 class="text-3xl text-myDarkBlue font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl text-myBrightBlue font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl text-myDeepBlue font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl text-myLightBlue font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl text-myGray font-bold underline">Hello world!</h1>
+  <h1 class="text-3xl text-mydarkGray font-bold underline">Hello world!</h1> -->
+    <div class="relative container mx-auto p-6"></div>
+  <header class="flex justify-between border-2 border-myDarkBlue border-solid">
+    <!-- border-2 border-solid // border-dashed // border-dotted // border-double  -->
+
+    <!-- logo  -->
+    <img src="#" alt="">
+    <nav class="flex flex-col md:flex-row">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Price</a>
+      <a href="#">Help</a>
+      <button class="px-2 py-4 border">Связь с нами</button>
+    </nav>
+  </header>
+</div>
+
+  <!-- hero  -->
+  <section id="hero" class="grid grid-cols-1 md:grid-cols-2">
+    <!-- border-solid border-2  -->
+    <div class="flex flex-col justify-between">
+      <div>
+        <p> Design of us</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <button>Knopka</button>
+      </div>
+      <div>
+        <p> Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="flex items-center">
+          <!-- аватарка  -->
+          <img src="" alt="">
+          <p> Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </div>
+    <!-- ключевая картинка справа  -->
+    <div>
+      <img src="" alt="">
+    </div>
+  </section>
+  <!-- hero end -->
+
+</body>
+
+</html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
