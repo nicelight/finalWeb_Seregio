@@ -14,7 +14,10 @@ module.exports = {
         myGray: '#2D3D47',
         mydarkGray: '#1D272E',
 
-      }
+      },
+      fontFamily: {
+        sans: ['Onest'],
+      },
     },
   },
   plugins: [],
