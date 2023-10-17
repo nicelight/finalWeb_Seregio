@@ -8,10 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/output.css" rel="stylesheet">
   <link href="/src/animation.css" rel="stylesheet">
+  <link href="/src/styles.css" rel="stylesheet">
 </head>
 
 <body class="bg-slate-100">
-  
+
   <h1 class="text-3xl text-myDarkBlue font-bold underline">myDarkBlue</h1>
   <h1 class="text-3xl text-myBrightBlue font-bold underline">myBrightBlue</h1>
   <h1 class="text-3xl text-myDeepBlue font-bold underline">myDeepBlue </h1>
@@ -44,7 +45,7 @@
     <!-- border-solid border-2  -->
     <div class="flex flex-col justify-between">
       <div>
-        <p> мы приехали в среднюю Азию и  поработали над тем, чтобы Вы могли  </p>
+        <p> мы приехали в среднюю Азию и поработали над тем, чтобы Вы могли </p>
         <h1>Дикий и безопасный Таджикистан</h1>
         <button>Knopka</button>
       </div>
@@ -64,6 +65,33 @@
   </section>
   <!-- hero end -->
 
+  <!-- feature  -->
+  <section id="feature">
+    <!-- секция с картинкой и текстом  -->
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div id="left-part">
+        <!-- слева фото  -->
+        <img src="#" alt="" />
+      </div>
+      <div id="right-part">
+        <p> Тут описание картинки.
+          Картинка слева описание справа
+        </p>
+      </div>
+    </div>
+    <!-- секция с текстом и видео  -->
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div id="opisanie">
+        <p> Тут описание. Описание слева, видео справа</p>
+      </div>
+      <div id="video-container">
+        <!-- тут видео с кнопкой  -->
+        <video id="my-video" src="./video.mp4"></video>
+        <button id="play-button"></button>
+      </div>
+    </div>
+  </section>
+  <script src="./scriptvideo.js"></script>
 </body>
 
 </html>
